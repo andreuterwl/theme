@@ -96,7 +96,7 @@
   border-color: #86bcbd                   /* { }  */
 }
 .ace_support.ace_function {
-  color: #d3b6e3                   /* Funciones */
+  color: #ff79c6 !important; /* Funciones */
 }
 .ace_string {
   color: #87c484                   /* Cadenas de texto entre comas: "Mundo", 'Salvaje' */
