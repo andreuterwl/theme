@@ -51,17 +51,17 @@
 .ace_constant.ace_other {
   color: #4FB7C5
 }
-.ace_keyword.ace_operator {
-  color: #797878
+.ace_keyword.ace_operator {         
+  color: #797878                   /* Operador (+, -, *, ...) */
 }
 .ace_constant.ace_character {
-  color: #AFA472
+  color: #AFA472                   /* Caracteres entre comas "" */
 }
 .ace_constant.ace_language {
-  color: #DE8E30
+  color: #DE8E30                   /* NULL TRUE FALSE */
 }
 .ace_constant.ace_numeric {
-  color: #CCCCCC
+  color: #f00505                   /* Números */
 }
 .ace_invalid,
 .ace_invalid.ace_illegal {
@@ -74,26 +74,26 @@
   color: #D2A8A1
 }
 .ace_fold {
-  background-color: #757aD8;
-  border-color: #8F938F
+  background-color: #757aD8;                   /* Números */
+  border-color: #8F938F                   /* Números */
 }
 .ace_support.ace_function {
-  color: #AEB2F8
+  color: #AEB2F8                   /* Funciones */
 }
 .ace_string {
-  color: #66A968
+  color: #87c484                   /* Cadenas de texto entre comas: "Mundo", 'Salvaje' */
 }
 .ace_string.ace_regexp {
-  color: #E9C062
+  color: #E9C062                   /* Números */
 }
-.ace_comment {
-  color: #A6C6FF
+.ace_comment {  
+  color: #A6C6FF                   /* Números */
 }
 .ace_variable {
-  color: #BEBF55
+  color: #BEBF55                   /* Números */
 }
 .ace_variable.ace_language {
-  color: #C1C144
+  color: #C1C144                   /* Números */
 }
 .ace_xml-pe {
   color: #494949
