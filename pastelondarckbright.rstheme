@@ -55,7 +55,7 @@
   color: #797878                   /* Operador (+, -, *, ...) */
 }
 .ace_paren {
-  color: #5E9EFF;
+  color: #faf482;
 }
 
 /* Color verde claro para corchetes [] */
