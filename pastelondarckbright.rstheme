@@ -25,6 +25,10 @@
 .ace_marker-layer .ace_step {
   background: rgb(102, 82, 0)
 }
+.ace_entity.ace_name.ace_function,
+.ace_support.ace_function,
+.ace_variable {
+  color: #7AA6DA
 .ace_marker-layer .ace_bracket {
   margin: -1px 0 0 -1px;
   border: 1px solid rgba(255, 255, 255, 0.25)
@@ -44,6 +48,12 @@
 .ace_keyword,
 .ace_meta {
   color: #757aD8
+}
+.ace_meta,
+.ace_storage,
+.ace_storage.ace_type,
+.ace_support.ace_type {
+  color: #C397D8
 }
 .ace_constant,
 .ace_constant.ace_character,
