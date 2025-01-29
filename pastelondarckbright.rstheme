@@ -28,7 +28,8 @@
 .ace_entity.ace_name.ace_function,
 .ace_support.ace_function,
 .ace_variable {
-  color: #7AA6DA
+  color: #7AA6DA; /* Azul para funciones y variables */
+}
 .ace_marker-layer .ace_bracket {
   margin: -1px 0 0 -1px;
   border: 1px solid rgba(255, 255, 255, 0.25)
