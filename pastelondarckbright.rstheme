@@ -54,6 +54,24 @@
 .ace_keyword.ace_operator {         
   color: #797878                   /* Operador (+, -, *, ...) */
 }
+.ace_paren {
+  color: #5E9EFF;
+}
+
+/* Color verde claro para corchetes [] */
+.ace_bracket {
+  color: #69ff8d;
+}
+
+/* Color naranja pastel para llaves {} */
+.ace_brace {
+  color: #FFB86C;
+}
+
+/* Color rosa para funciones base como which, unlist, setdiff */
+.ace_support.ace_function {
+  color: #ff79c6;
+}
 .ace_constant.ace_character {
   color: #AFA472                   /* Caracteres entre comas "" */
 }
@@ -75,10 +93,10 @@
 }
 .ace_fold {
   background-color: #757aD8;                   /* Números */
-  border-color: #8F938F                   /* Números */
+  border-color: #86bcbd                   /* { }  */
 }
 .ace_support.ace_function {
-  color: #6a71ad                   /* Funciones */
+  color: #d3b6e3                   /* Funciones */
 }
 .ace_string {
   color: #87c484                   /* Cadenas de texto entre comas: "Mundo", 'Salvaje' */
