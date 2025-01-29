@@ -68,10 +68,6 @@
   color: #FFB86C;
 }
 
-/* Color rosa para funciones base como which, unlist, setdiff */
-.ace_support.ace_function {
-  color: #ff79c6;
-}
 .ace_constant.ace_character {
   color: #AFA472                   /* Caracteres entre comas "" */
 }
