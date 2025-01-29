@@ -6,11 +6,11 @@
 }
 .ace_print-margin {
   width: 1px;
-  background: #000000;
+  background: #000000
 }
 .ace_editor, .rstudio-themes-flat.ace_editor_theme .profvis-flamegraph, .rstudio-themes-flat.ace_editor_theme, .rstudio-themes-flat .ace_editor_theme {
   background-color: #000000;
-  color: #8F938F
+  color: #8F938F;
 }
 .ace_cursor {
   color: #A7A7A7
@@ -48,7 +48,7 @@
 }
 .ace_keyword,
 .ace_meta {
-  color: #757aD8
+  color: #757aD8;
 }
 .ace_constant,
 .ace_constant.ace_character,
@@ -60,7 +60,7 @@
   color: #797878                   /* Operador (+, -, *, ...) */
 }
 .ace_constant.ace_paren {
-  color: #faf482 
+  color: #faf482;
 }
 /* Color naranja pastel para llaves {} */
 .ace_constant.ace_brace {
