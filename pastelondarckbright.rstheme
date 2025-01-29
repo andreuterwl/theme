@@ -54,10 +54,9 @@
 .ace_keyword.ace_operator {         
   color: #797878                   /* Operador (+, -, *, ...) */
 }
-.ace_support.ace_function + .ace_paren {
-  color: #faf482; /* Azul para paréntesis de funciones */
+.ace_constant.ace_paren {
+  color: #faf482 
 }
-
 /* Color naranja pastel para llaves {} */
 .ace_brace {
   color: #FFB86C;
