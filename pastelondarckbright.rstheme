@@ -49,12 +49,6 @@
 .ace_meta {
   color: #757aD8
 }
-.ace_meta,
-.ace_storage,
-.ace_storage.ace_type,
-.ace_support.ace_type {
-  color: #C397D8
-}
 .ace_constant,
 .ace_constant.ace_character,
 .ace_constant.ace_character.ace_escape,
@@ -68,7 +62,7 @@
   color: #faf482 
 }
 /* Color naranja pastel para llaves {} */
-.ace_brace {
+.ace_constant.ace_brace {
   color: #FFB86C;
 }
 
