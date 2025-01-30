@@ -29,12 +29,10 @@
 }
 
 /* Funciones */
-.ace_support.ace_function {
-  color: #ff79c6 !important; /* Funciones base de R */
-}
-
-.ace_entity.ace_function {
-  color: #f7bcde !important; /* Funciones de paquetes */
+.ace_support.ace_function,
+.ace_entity.ace_function,
+.ace_storage.ace_type {
+  color: #ff79c6 !important; /* Rosa fuerte */
 }
 
 .ace_marker-layer .ace_bracket {
@@ -732,5 +730,5 @@
    border: none
 }
 .ace_editor, .rstudio-themes-flat.ace_editor_theme .profvis-flamegraph, .rstudio-themes-flat.ace_editor_theme, .rstudio-themes-flat .ace_editor_theme {
-  color: #EAEAEA !important;
+  color: #e8eb60 !important;
 }
