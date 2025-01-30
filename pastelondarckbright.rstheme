@@ -729,8 +729,10 @@
    background: rgba(255, 255, 255, 0.15);
    border: none
 }
-.ace_editor, .rstudio-themes-flat.ace_editor_theme .profvis-flamegraph, .rstudio-themes-flat.ace_editor_theme, .rstudio-themes-flat .ace_editor_theme {
-  color: #fcfcfc important!;
+.ace_editor, .rstudio-themes-flat.ace_editor_theme .profvis-flamegraph, 
+.rstudio-themes-flat.ace_editor_theme, 
+.rstudio-themes-flat .ace_editor_theme {
+  color: #fcfcfc !important; /* Blanco para texto normal */
 }
 .ace_support.ace_function {
   color: #e1c2f2 !important; /* Rosa */
