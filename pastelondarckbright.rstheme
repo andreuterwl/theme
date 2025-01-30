@@ -765,12 +765,9 @@
 .ace_support.ace_function {
   color: #e1c2f2 !important; /* Rosa */
 }
-
-/* Color de funciones de paquetes (mutate(), ggplot(), etc.) */
-.ace_entity.ace_function {
+.ace_identifier {
   color: #e1c2f2 !important; /* Rosa */
 }
-
 /* Color de variables */
 .ace_variable {
   color: #c2f2f0 !important; /* Azul */
@@ -807,5 +804,5 @@
 
 /* Si no funciona la anterior, prueba esta */
 .ace_paren.ace_operator {
-  color: #FFB86C !important; /* Naranja */
+  color: #99cfd1 !important; /* Naranja */
 }
