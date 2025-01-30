@@ -10,7 +10,7 @@
 }
 .ace_editor, .rstudio-themes-flat.ace_editor_theme .profvis-flamegraph, .rstudio-themes-flat.ace_editor_theme, .rstudio-themes-flat .ace_editor_theme {
   background-color: #000000;
-  color: #8F938F;
+  color: #8F938F;               /* GRIS */
 }
 .ace_cursor {
   color: #A7A7A7
@@ -32,7 +32,7 @@
 }
 .ace_marker-layer .ace_bracket {
   margin: -1px 0 0 -1px;
-  border: 1px solid rgba(255, 255, 255, 0.25)
+  border: 1px solid rgba(232, 242, 150, 0.25)
 }
 .ace_marker-layer .ace_active-line {
   background: rgba(255, 255, 255, 0.031)
