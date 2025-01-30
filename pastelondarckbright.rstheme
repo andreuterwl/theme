@@ -775,16 +775,16 @@
 /* ========================= */
 
 /* Color de corchetes [] */
-.ace_bracket {
-  color: #e8eb60 !important; /* Amarillo */
+.ace_support.ace_bracket {
+  color: #a0d9c5 !important; /* Amarillo */
 }
 
 /* Color de paréntesis () */
-.ace_paren {
-  color: #ff79c6 !important; /* Rosa */
+.ace_support.ace_paren {
+  color: #a0d9c5 !important; /* Rosa */
 }
 
 /* Color de llaves {} */
-.ace_brace {
+.ace_support.ace_brace {
   color: #FFB86C !important; /* Naranja */
 }
