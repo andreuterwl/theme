@@ -1,4 +1,4 @@
-/* rs-theme-name: Pastel Dark Bright 2*/
+/* rs-theme-name: Pastel Dark Bright */
 /* rs-theme-is-dark: TRUE */
 .ace_gutter {  /* Fondo negro en la barra lateral */
   background: #000000;
