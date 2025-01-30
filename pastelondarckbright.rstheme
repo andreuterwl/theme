@@ -721,7 +721,7 @@
 .rstudio-themes-flat.rstudio-themes-dark-menus .ace_editor.ace_autocomplete {
    background: #232324;
    border: solid 1px #EAEAEA !important;
-   color: #f0f0f0;
+   color: #fcfbbb;
 }
 
 .rstudio-themes-flat.rstudio-themes-dark-menus .ace_editor.ace_autocomplete .ace_marker-layer .ace_active-line,
@@ -730,7 +730,7 @@
    border: none
 }
 .ace_editor, .rstudio-themes-flat.ace_editor_theme .profvis-flamegraph, .rstudio-themes-flat.ace_editor_theme, .rstudio-themes-flat .ace_editor_theme {
-  color: #fcfcfc;
+  color: #fcfcfc important!;
 }
 .ace_support.ace_function {
   color: #e1c2f2 !important; /* Rosa */
