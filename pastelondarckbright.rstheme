@@ -102,7 +102,7 @@
   color: #E9C062; /* Expresiones regulares */
 }
 .ace_comment {  
-  color: #d4abad; /* #Comentarios */
+  color: #acc2c1; /* #Comentarios */
 }
 .ace_variable {
   color: #BEBF55;
@@ -798,27 +798,27 @@
 .ace_punctuation.ace_bracket,
 .ace_meta.ace_bracket,
 .ace_variable.ace_bracket {
-  color: #9ee6dc !important; /* Amarillo */
+  color: #f5abab !important; /* Amarillo */
 }
 
 /* Corchetes [] en comentarios tipo #| */
 .ace_comment .ace_bracket {
-  color: #9ee6dc !important; /* Amarillo */
+  color: #f5abab !important; /* Amarillo */
 }
 
 /* Paréntesis () en funciones y expresiones matemáticas */
 .ace_paren, 
 .ace_punctuation.ace_paren,
 .ace_meta.ace_paren {
-  color: #9ee6dc !important; /* Rosa */
+  color: #f5abab !important; /* Rosa */
 }
 
 /* Llaves {} en estructuras de control (for {}, if {}) */
 .ace_paren.ace_keyword.ace_operator {
-  color: #9ee6dc !important; /* Naranja */
+  color: #f5abab !important; /* Naranja */
 }
 
 /* Si no funciona la anterior, prueba esta */
 .ace_paren.ace_operator {
-  color: #9ee6dc !important; /* Naranja */
+  color: #f5abab !important; /* Naranja */
 }
