@@ -774,17 +774,26 @@
 /*    CORCHETES, PARÉNTESIS Y LLAVES */
 /* ========================= */
 
-/* Color de corchetes [] */
-.ace_support.ace_bracket {
-  color: #a0d9c5 !important; /* Amarillo */
+.ace_storage.ace_bracket {
+  color: #e8eb60 !important; /* Amarillo */
 }
 
-/* Color de paréntesis () */
-.ace_support.ace_paren {
-  color: #a0d9c5 !important; /* Rosa */
+/* Corchetes [] en expresiones matemáticas y funciones como mutate() */
+.ace_punctuation.ace_bracket {
+  color: #e8eb60 !important; /* Amarillo */
 }
 
-/* Color de llaves {} */
-.ace_support.ace_brace {
+/* Corchetes [] en comentarios tipo #| */
+.ace_comment .ace_bracket {
+  color: #e8eb60 !important; /* Amarillo */
+}
+
+/* Paréntesis () en funciones como mutate(), ggplot(), filter() */
+.ace_punctuation.ace_paren {
+  color: #ff79c6 !important; /* Rosa */
+}
+
+/* Llaves {} en estructuras de control como for{}, if{} */
+.ace_punctuation.ace_brace {
   color: #FFB86C !important; /* Naranja */
 }
