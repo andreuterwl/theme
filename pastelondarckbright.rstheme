@@ -704,6 +704,9 @@
 .xtermColor255 { color: #eeeeee !important; }
 .xtermBgColor255 { background-color: #eeeeee; }
 /* Color de los enlaces en el editor */
+
+
+/* Color de los enlaces en el editor */
 .rstudio-themes-flat.editor_dark.ace_editor_theme a {
    color: #FFF !important;
 }
@@ -737,6 +740,11 @@
    border: none;
 }
 
+/* ========================= */
+/*    COLOR BASE DEL TEXTO   */
+/* ========================= */
+
+/* Color del texto normal en el editor */
 .ace_editor, 
 .rstudio-themes-flat.ace_editor_theme .profvis-flamegraph, 
 .rstudio-themes-flat.ace_editor_theme, 
@@ -744,15 +752,13 @@
   color: #fcfcfc !important; /* Blanco */
 }
 
-/* ========================= */
-/*    CORRECCIÓN DEL AMARILLO */
-/* ========================= */
+/* Corrección del color base para evitar que todo sea amarillo */
 .ace_text-layer {
   color: #fcfcfc !important; /* Asegura que el texto general sea blanco */
 }
 
 /* ========================= */
-/*    FUNCIONES Y VARIABLES */
+/*    FUNCIONES Y VARIABLES  */
 /* ========================= */
 
 /* Color de las funciones base de R (sum(), paste0(), which(), etc.) */
@@ -771,10 +777,10 @@
 }
 
 /* ========================= */
-/*    CORCHETES []           */
+/*    CORCHETES, PARÉNTESIS Y LLAVES */
 /* ========================= */
 
-/* Corchetes en estructuras de datos, listas y funciones */
+/* Corchetes [] en estructuras de datos (data[["subdata"]]) */
 .ace_rightBracket, .ace_leftBracket,
 .ace_punctuation.ace_bracket,
 .ace_meta.ace_bracket,
@@ -782,24 +788,24 @@
   color: #e8eb60 !important; /* Amarillo */
 }
 
-/* ========================= */
-/*    PARÉNTESIS ()          */
-/* ========================= */
+/* Corchetes [] en comentarios tipo #| */
+.ace_comment .ace_bracket {
+  color: #e8eb60 !important; /* Amarillo */
+}
 
-/* Paréntesis en funciones y expresiones matemáticas */
+/* Paréntesis () en funciones y expresiones matemáticas */
 .ace_paren, 
 .ace_punctuation.ace_paren,
 .ace_meta.ace_paren {
   color: #ff79c6 !important; /* Rosa */
 }
 
-/* ========================= */
-/*    LLAVES {}              */
-/* ========================= */
+/* Llaves {} en estructuras de control (for {}, if {}) */
+.ace_paren.ace_keyword.ace_operator {
+  color: #FFB86C !important; /* Naranja */
+}
 
-/* Llaves en estructuras de control, funciones y bloques */
-.ace_brace, 
-.ace_punctuation.ace_brace,
-.ace_meta.ace_brace {
+/* Si no funciona la anterior, prueba esta */
+.ace_paren.ace_operator {
   color: #FFB86C !important; /* Naranja */
 }
