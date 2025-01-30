@@ -18,6 +18,7 @@
 .ace_marker-layer .ace_selection { /* Selección con menor opacidad */
   background: rgba(221, 240, 255, 0.20) 
 }
+
 .ace_selection.ace_start {
   box-shadow: 0 0 3px 0px #000000;
   border-radius: 2px;
@@ -30,10 +31,12 @@
 .ace_variable {
   color: #7AA6DA; /* Azul para funciones y variables */
 }
+
 .ace_marker-layer .ace_bracket {
   margin: -1px 0 0 -1px;
-  border: 1px solid rgba(232, 242, 150, 0.25)
+  border: 1px solid #ff79c6; /* Rosa */
 }
+
 .ace_marker-layer .ace_active-line {
   background: rgba(255, 255, 255, 0.031)
 }
