@@ -768,7 +768,7 @@
 
 /* Color del pipe (%>%) y operadores especiales (&, |, ::) */
 .ace_keyword.ace_operator.ace_infix {
-  color: #f0ee89 !important; /* Naranja */
+  color: #85f9ff !important; /* Naranja */
 }
 
 /* ========================= */
