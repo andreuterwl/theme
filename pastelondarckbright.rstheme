@@ -737,19 +737,22 @@
    border: none;
 }
 
-/* ========================= */
-/*    COLOR DEL TEXTO        */
-/* ========================= */
-
-/* Color del texto general en el editor */
-.ace_editor, .rstudio-themes-flat.ace_editor_theme .profvis-flamegraph, 
+.ace_editor, 
+.rstudio-themes-flat.ace_editor_theme .profvis-flamegraph, 
 .rstudio-themes-flat.ace_editor_theme, 
 .rstudio-themes-flat .ace_editor_theme {
-  color: #fcfcfc !important; /* Blanco para texto normal */
+  color: #fcfcfc !important; /* Blanco */
 }
 
 /* ========================= */
-/*    RESALTADO DE FUNCIONES */
+/*    CORRECCIÓN DEL AMARILLO */
+/* ========================= */
+.ace_text-layer {
+  color: #fcfcfc !important; /* Asegura que el texto general sea blanco */
+}
+
+/* ========================= */
+/*    FUNCIONES Y VARIABLES */
 /* ========================= */
 
 /* Color de las funciones base de R (sum(), paste0(), which(), etc.) */
@@ -757,14 +760,10 @@
   color: #e1c2f2 !important; /* Rosa */
 }
 
-/* Color de funciones de paquetes (mutate(), ggplot(), html_nodes(), etc.) */
+/* Color de funciones de paquetes (mutate(), ggplot(), etc.) */
 .ace_entity.ace_function {
   color: #e1c2f2 !important; /* Rosa */
 }
-
-/* ========================= */
-/*    VARIABLES Y OPERADORES */
-/* ========================= */
 
 /* Color de variables */
 .ace_variable {
