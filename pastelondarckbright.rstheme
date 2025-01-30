@@ -732,3 +732,20 @@
 .ace_editor, .rstudio-themes-flat.ace_editor_theme .profvis-flamegraph, .rstudio-themes-flat.ace_editor_theme, .rstudio-themes-flat .ace_editor_theme {
   color: #e8eb60 !important;
 }
+.ace_support.ace_function {
+  color: #e1c2f2 !important; /* Rosa */
+}
+
+/* Color de funciones de paquetes (mutate(), ggplot(), etc.) */
+.ace_entity.ace_function {
+  color: #e1c2f2 !important; /* Rosa */
+}
+
+/* Color de variables */
+.ace_variable {
+  color: #c2f2f0; /* Azul */
+}
+
+.ace_bracket {
+  color: #e8eb60 !important; /* Amarillo */
+}
