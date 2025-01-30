@@ -771,6 +771,21 @@
   color: #85f9ff !important; /* Naranja */
 }
 
+.ace_operator.ace_infix:contains("::") {
+  color: #faafd9 !important; /* Rosa */
+}
+
+/* Color del operador `$` (para acceder a elementos de listas y data frames) */
+.ace_operator.ace_infix:contains("$") {
+  color: #6fedd6 !important; /* Verde */
+}
+
+/* Color del operador `&` (AND lógico) */
+.ace_operator.ace_infix:contains("&") {
+  color: #facd9d !important; /* Naranja */
+}
+
+
 /* ========================= */
 /*    FUNCIONES Y VARIABLES  */
 /* ========================= */
