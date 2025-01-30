@@ -771,29 +771,35 @@
 }
 
 /* ========================= */
-/*    CORCHETES, PARÉNTESIS Y LLAVES */
+/*    CORCHETES []           */
 /* ========================= */
 
-.ace_storage.ace_bracket {
+/* Corchetes en estructuras de datos, listas y funciones */
+.ace_rightBracket, .ace_leftBracket,
+.ace_punctuation.ace_bracket,
+.ace_meta.ace_bracket,
+.ace_variable.ace_bracket {
   color: #e8eb60 !important; /* Amarillo */
 }
 
-/* Corchetes [] en expresiones matemáticas y funciones como mutate() */
-.ace_punctuation.ace_bracket {
-  color: #e8eb60 !important; /* Amarillo */
-}
+/* ========================= */
+/*    PARÉNTESIS ()          */
+/* ========================= */
 
-/* Corchetes [] en comentarios tipo #| */
-.ace_comment .ace_bracket {
-  color: #e8eb60 !important; /* Amarillo */
-}
-
-/* Paréntesis () en funciones como mutate(), ggplot(), filter() */
-.ace_punctuation.ace_paren {
+/* Paréntesis en funciones y expresiones matemáticas */
+.ace_paren, 
+.ace_punctuation.ace_paren,
+.ace_meta.ace_paren {
   color: #ff79c6 !important; /* Rosa */
 }
 
-/* Llaves {} en estructuras de control como for{}, if{} */
-.ace_punctuation.ace_brace {
+/* ========================= */
+/*    LLAVES {}              */
+/* ========================= */
+
+/* Llaves en estructuras de control, funciones y bloques */
+.ace_brace, 
+.ace_punctuation.ace_brace,
+.ace_meta.ace_brace {
   color: #FFB86C !important; /* Naranja */
 }
