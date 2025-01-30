@@ -703,51 +703,89 @@
 .xtermBgColor254 { background-color: #e4e4e4; }
 .xtermColor255 { color: #eeeeee !important; }
 .xtermBgColor255 { background-color: #eeeeee; }
+/* Color de los enlaces en el editor */
 .rstudio-themes-flat.editor_dark.ace_editor_theme a {
    color: #FFF !important;
 }
 
+/* Capas del editor (para la visibilidad y orden de elementos) */
 .ace_layer {
    z-index: 3;
 }
-
 .ace_layer.ace_print-margin-layer {
    z-index: 2;
 }
-
 .ace_layer.ace_marker-layer {
    z-index: 1;
 }
+
+/* ========================= */
+/*    AUTOCOMPLETADO        */
+/* ========================= */
+
+/* Estilo del cuadro de autocompletado */
 .rstudio-themes-flat.rstudio-themes-dark-menus .ace_editor.ace_autocomplete {
    background: #232324;
    border: solid 1px #EAEAEA !important;
-   color: #fcfbbb;
+   color: #fcfbbb; /* Texto amarillo en el autocompletado */
 }
 
+/* Resaltado en el autocompletado */
 .rstudio-themes-flat.rstudio-themes-dark-menus .ace_editor.ace_autocomplete .ace_marker-layer .ace_active-line,
 .rstudio-themes-flat.rstudio-themes-dark-menus .ace_editor.ace_autocomplete .ace_marker-layer .ace_line-hover {
    background: rgba(255, 255, 255, 0.15);
-   border: none
+   border: none;
 }
+
+/* ========================= */
+/*    COLOR DEL TEXTO        */
+/* ========================= */
+
+/* Color del texto general en el editor */
 .ace_editor, .rstudio-themes-flat.ace_editor_theme .profvis-flamegraph, 
 .rstudio-themes-flat.ace_editor_theme, 
 .rstudio-themes-flat .ace_editor_theme {
   color: #fcfcfc !important; /* Blanco para texto normal */
 }
+
+/* ========================= */
+/*    RESALTADO DE FUNCIONES */
+/* ========================= */
+
+/* Color de las funciones base de R (sum(), paste0(), which(), etc.) */
 .ace_support.ace_function {
   color: #e1c2f2 !important; /* Rosa */
 }
 
-/* Color de funciones de paquetes (mutate(), ggplot(), etc.) */
+/* Color de funciones de paquetes (mutate(), ggplot(), html_nodes(), etc.) */
 .ace_entity.ace_function {
   color: #e1c2f2 !important; /* Rosa */
 }
+
+/* ========================= */
+/*    VARIABLES Y OPERADORES */
+/* ========================= */
 
 /* Color de variables */
 .ace_variable {
   color: #c2f2f0 !important; /* Azul */
 }
 
+/* ========================= */
+/*    CORCHETES, PARÉNTESIS Y LLAVES */
+/* ========================= */
+
+/* Color de corchetes [] */
 .ace_bracket {
   color: #e8eb60 !important; /* Amarillo */
+}
+
+/* Color de paréntesis () */
+.ace_paren {
+  color: #ff79c6 !important; /* Rosa */
+}
+
+/* Color de llaves {} */
+.ace_brace {
+  color: #FFB86C !important; /* Naranja */
 }
